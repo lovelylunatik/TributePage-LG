@@ -1,22 +1,26 @@
-* {
+html, body {
     background-color: rgb(245, 230, 211);
 }
+
 .header {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .polaroid {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: white;
     padding: 15px 15px 30px 15px;
-  }
+}
+
 img {
     border-radius: 5px;
 }
+
 .img-caption {
     background-color: transparent;
     text-wrap: wrap;
@@ -27,15 +31,52 @@ img {
     font-size: medium;
 }
 
-
-  #title {
+#title {
     text-align: center;
-    background-color: tan;
-    color: rgb(69, 5, 5);
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: hsl(49, 87%, 47%);
+    color: rgb(92, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 50% 20% / 10% 40%;
     width: 50%;
     padding: 20px;
-  }
-  
-  
+    border: solid 2px rgb(92, 8, 8);
+}
+
+.tribute-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.background-info {
+    max-width: 75%;
+    text-indent: 2em;
+}
+
+.best-moments {
+    max-width: 75%;
+}
+
+h2 {
+    color: rgb(92, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    background-color: hsl(49, 87%, 47%);
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 2px rgb(92, 8, 8);
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.episodes {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: square;
+}
+
+.diner-order {
+    background-color: white;
+}
